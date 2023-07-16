@@ -1,6 +1,8 @@
 #include<stdio.h>
-/*
+/**
  * main - Start of the main fucntions
+ *
+ * Description: Programm that prints 1 line
  *
  * Return: nothing
  */
