@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - Start of the main fucntions
  *
@@ -9,6 +10,6 @@
  */
 int main(void)
 {
-printf("abcdefghijklmnopqrstuvwxyz\n")
+printf("abcdefghijklmnopqrstuvwxyz\n");
 return(0);
 }
