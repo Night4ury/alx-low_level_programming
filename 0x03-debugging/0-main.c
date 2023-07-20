@@ -29,7 +29,7 @@ printf("The number is zero.\n");
 int main(void)
 {
 int i;
-i = 98;
+i = 98 % 2;
 positive_or_negative(i);
 return (0);
 }
