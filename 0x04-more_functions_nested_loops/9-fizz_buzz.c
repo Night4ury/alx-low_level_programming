@@ -24,6 +24,7 @@ if (i == 100)
 printf("buzz\n");
 break;
 }
+else
 printf("buzz ");
 }
 else
