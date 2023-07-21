@@ -10,11 +10,11 @@
 
 void print_numbers(void)
 {
-for (int i = 0; i < 10; i++)
-{
-_putchar(i + '0');
-}
-_putchar('\n');
+    for (int i = 0; i < 10; i++)
+    {
+        _putchar(i + '0');
+    }
+    _putchar('\n');
 }
 
 /**
@@ -24,6 +24,6 @@ _putchar('\n');
 
 int main(void)
 {
-print_numbers();
-return (0);
+    print_numbers();
+    return (0);
 }
