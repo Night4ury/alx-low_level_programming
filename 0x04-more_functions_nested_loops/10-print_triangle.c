@@ -13,8 +13,8 @@
 
 void print_triangle(int size)
 {
-int spaces, hashes;
-for (int row = 1; row <= size; row++)
+int row, spaces, hashes;
+for (row = 1; row <= size; row++)
 {
 for (spaces = 1; spaces <= size - row; spaces++)
 putchar(' ');
