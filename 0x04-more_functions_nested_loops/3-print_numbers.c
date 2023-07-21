@@ -17,14 +17,3 @@ _putchar(i + '0');
 }
 _putchar('\n');
 }
-
-/**
-* main - causes an infinite loop
-* Return: 0
-*/
-
-int main(void)
-{
-print_numbers();
-return (0);
-}
