@@ -22,4 +22,5 @@ for (hashes = 1; hashes <= row; hashes++)
 putchar('#');
 putchar('\n');
 }
+putchar('\n');
 }
