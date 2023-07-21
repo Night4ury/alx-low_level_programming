@@ -10,7 +10,8 @@
 
 int main(void)
 {
-for (int i = 1; i <= 100; i++)
+int i;
+for (i = 1; i <= 100; i++)
 {
 if ((i % 15) == 0)
 printf("fizzbuzz ");
@@ -20,7 +21,7 @@ else if ((i % 5) == 0)
 {
 if (i == 100)
 {
-printf("buzz\n", i);
+printf("buzz\n");
 break;
 }
 printf("buzz ");
