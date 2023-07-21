@@ -21,7 +21,7 @@ else if ((i % 5) == 0)
 {
 if (i == 100)
 {
-printf("buzz\n");
+printf("buzz");
 break;
 }
 else
