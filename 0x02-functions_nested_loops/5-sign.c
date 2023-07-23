@@ -5,6 +5,8 @@
  *
  * Description: Programm that prints the alphabet in lowercase.
  *
+ * @n: paramter
+ *
  * Return: nothing
  */
 
@@ -25,39 +27,4 @@ else
 putchar('-');
 return (-1);
 }
-}
-
-/**
- * main - Start of the main fucntions
- *
- * Description: Programm that prints the alphabet in lowercase & uppercase.
- *
- * Return: nothing
- */
-
-int main(void)
-{
-int r;
-
-r = print_sign(98);
-putchar(',');
-putchar(' ');
-putchar(r + '0');
-putchar('\n');
-r = print_sign(0);
-putchar(',');
-putchar(' ');
-putchar(r + '0');
-putchar('\n');
-r = print_sign(0xff);
-putchar(',');
-putchar(' ');
-putchar(r + '0');
-putchar('\n');
-r = print_sign(-1);
-putchar(',');
-putchar(' ');
-putchar(r + '0');
-putchar('\n');
-return (0);
 }
