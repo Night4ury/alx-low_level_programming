@@ -8,22 +8,6 @@
  * Return: nothing
  */
 
-void jack_bauer(void);
-
-/**
- * main - Start of the main fucntions
- *
- * Description: Programm that prints the alphabet in lowercase & uppercase.
- *
- * Return: nothing
- */
-
-int main(void)
-{
-jack_bauer();
-return (0);
-}
-
 void jack_bauer(void)
 {
 for (int i = 0; i <= 2; i++)
