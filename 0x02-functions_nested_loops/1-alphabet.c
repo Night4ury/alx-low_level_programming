@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * print_alphabet - Prints the alphabet
  *
@@ -18,17 +19,3 @@ alpha++;
 }
 }
 
-/**
- * main - Start of the main fucntions
- *
- * Description: Programm that prints the alphabet in lowercase & uppercase.
- *
- * Return: nothing
- */
-
-int main(void)
-{
-print_alphabet();
-_putchar('\n');
-return (0);
-}
