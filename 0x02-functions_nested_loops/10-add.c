@@ -6,6 +6,9 @@
  *
  * Description: Programm that prints the alphabet in lowercase.
  *
+ * @num_1: paramter
+ * @num_2: paramter
+ *
  * Return: nothing
  */
 
