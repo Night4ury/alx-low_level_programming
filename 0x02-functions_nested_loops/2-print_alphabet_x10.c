@@ -26,16 +26,3 @@ i++;
 }
 }
 
-/**
- * main - Start of the main fucntions
- *
- * Description: Programm that prints the alphabet in lowercase & uppercase.
- *
- * Return: nothing
- */
-
-int main(void)
-{
-print_alphabet_x10();
-return (0);
-}
