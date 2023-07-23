@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <ctype.h>
+#include "main.h"
 
 /**
  * print_sign - Islower to determine the char
