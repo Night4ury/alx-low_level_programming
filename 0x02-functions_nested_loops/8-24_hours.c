@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * jack_bauer - Islower to determine the char
  *
@@ -10,7 +10,7 @@
 
 void jack_bauer(void)
 {
-int i, j;
+int i, j, l, k;
 for (i = 0; i <= 2; i++)
 {
 if (i > 2)
@@ -23,9 +23,9 @@ if (i == 2 && j == 4)
 break;
 else
 {
-for (int l = 0; l < 6; l++)
+for (l = 0; l < 6; l++)
 {
-for (int k = 0; k <= 9; k++)
+for (k = 0; k <= 9; k++)
 {
 printf("%d%d:%d%d\n", i, j, l, k);
 }
