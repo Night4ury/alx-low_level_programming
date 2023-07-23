@@ -5,6 +5,8 @@
  *
  * Description: Programm that prints the alphabet in lowercase.
  *
+ * @c: paramter
+ *
  * Return: nothing
  */
 
