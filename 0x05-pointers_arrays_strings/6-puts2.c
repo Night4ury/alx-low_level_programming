@@ -15,8 +15,9 @@
 void puts2(char *str)
 {
 char *p_to_s = str;
+char tmp = *p_to_s;
 
-while ((*p_to_s != '\0'))
+while ((*p_to_s != '\0') && tmp != '\0')
 {
 _putchar(*p_to_s);
 p_to_s += 2;
