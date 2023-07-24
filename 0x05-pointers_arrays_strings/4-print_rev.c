@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * _puts - Function Title
+ * print_rev - Function Title
  *
  * Description: Loading...
  *
