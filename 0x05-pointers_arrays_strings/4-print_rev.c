@@ -25,4 +25,5 @@ while (p_to_s >= s)
 _putchar(*p_to_s);
 p_to_s--;
 }
+_putchar('\n');
 }
