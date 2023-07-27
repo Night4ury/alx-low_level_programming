@@ -15,28 +15,19 @@
 
 char *leet(char *orig_string)
 {
+char char_array[] = {'A', 'a', 'E', 'e', 'O', 'o', 'T', 't', 'L', 'l'};
+char char_rearray[] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
 char *ptr_to_string = orig_string;
+int sizeof_charArr = sizeof(char_array);
 while (*orig_string != '\0')
 {
-if ((*orig_string == 'A') || (*orig_string == 'A'))
+int i = 0;
+for (; i < sizeof_charArr ; i++)
 {
-*orig_string = '4';
+if (*orig_string == char_array[i])
+{
+*orig_string = char_rearray[i];
 }
-else if ((*orig_string == 'E') || (*orig_string == 'e'))
-{
-*orig_string = '3';
-}
-else if ((*orig_string == 'O') || (*orig_string == 'o'))
-{
-*orig_string = '0';
-}
-else if ((*orig_string == 'T') || (*orig_string == 't'))
-{
-*orig_string = '7';
-}
-else if ((*orig_string == 'L') || (*orig_string == 'l'))
-{
-*orig_string = '1';
 }
 orig_string++;
 }
