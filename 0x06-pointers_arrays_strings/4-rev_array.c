@@ -12,7 +12,6 @@
  *
  * Return: nothing
  */
-
 void reverse_array(int *a, int n)
 {
 int *tmp = a;
