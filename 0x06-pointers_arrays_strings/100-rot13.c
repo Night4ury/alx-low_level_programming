@@ -13,20 +13,29 @@
  * Return: nothing
  */
 
-char *rot13(char *orig_string)
+void *rot13(char *orig_string)
 {
 char *ptr_tostring = orig_string;
-while (*ptr_tostring != '\0')
+char uppercase_alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+char lowercase_alphabet[] = "abcdefghijklmnopqrstuvwxyz";
+int size = sizeof(uppercase_alphabet) - 1;
+while (*orig_string != '\0')
 {
-char ch = *ptr_tostring;
-if (('A' <= ch && ch <= 'Z') || ('a' <= ch && ch <= 'z'))
+int i = 0;
+for (; i < size; i++)
 {
-if (('A' <= ch && ch <= 'M') || ('a' <= ch && ch <= 'm'))
-*ptr_tostring += 13;
-else
-*ptr_tostring -= 13;
+if (*orig_string == lowercase_alphabet[i])
+{
+*orig_string = lowercase_alphabet[(i + 13) % size];
+break;
 }
-ptr_tostring++;
+else if (*orig_string == uppercase_alphabet[i])
+{
+*orig_string = uppercase_alphabet[(i + 13) % size];
+break;
 }
-return (orig_string);
+}
+orig_string++;
+}
+return (ptr_tostring);
 }
