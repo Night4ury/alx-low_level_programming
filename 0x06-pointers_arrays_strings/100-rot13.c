@@ -29,11 +29,6 @@ if (*orig_string == lowercase_alphabet[i])
 *orig_string = lowercase_alphabet[(i + 13) % size];
 break;
 }
-else if (*orig_string == uppercase_alphabet[i])
-{
-*orig_string = uppercase_alphabet[(i + 13) % size];
-break;
-}
 }
 orig_string++;
 }
