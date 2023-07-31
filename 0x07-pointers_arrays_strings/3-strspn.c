@@ -4,17 +4,17 @@
 
 
 /**
- * _strchr - Function Title
+ * _strspn - Function Title
  *
  * Description: Loading...
  *
  * @s: paramter
- * @c: paramter
+ * @accept: paramter
  *
  * Return: nothing
  */
 
-char *_strchr(char *s, char c)
+unsigned int _strspn(char *s, char *accept)
 {
-return (strchr(s, c));
+return (strspn(s, accept));
 }
