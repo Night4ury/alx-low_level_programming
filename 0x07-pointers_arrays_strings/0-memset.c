@@ -4,12 +4,12 @@
 
 
 /**
- * _memcpy - Function Title
+ * _memset - Function Title
  *
  * Description: Loading...
  *
- * @dest: paramter
- * @src: paramter
+ * @s: paramter
+ * @b: paramter
  * @n: paramter
  *
  * Return: nothing
