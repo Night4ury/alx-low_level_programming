@@ -22,6 +22,8 @@ while (j < 8)
 printf("%c", a[i][j]);
 j++;
 }
+if (i == 7)
+break;
 printf("\n");  
 i++;
 j = 0;
