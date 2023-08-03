@@ -19,7 +19,7 @@ int _square(int n, int value)
 
 if (value * value == n)
 return (value);
-else if (value <= n/2)
+else if (value <= n / 2)
 return (_square(n, value + 1));
 else
 return (-1);
