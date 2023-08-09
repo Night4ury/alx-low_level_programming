@@ -22,7 +22,6 @@ char *create_array(unsigned int size, char c)
 
 	if (p == NULL || size == 0)
 	{
-		printf("Memory allocation failed\n");
 		return (NULL);
 	}
 
