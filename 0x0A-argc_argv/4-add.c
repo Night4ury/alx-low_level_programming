@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 	{
 		for(; i< argc; i++)
 		{
-			int temp = atoi(argv[i]);
+			int temp = strtol(argv[i]);
 			if (temp == 0)
 			{
 				flag = 0;
