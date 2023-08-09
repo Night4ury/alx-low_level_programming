@@ -39,11 +39,17 @@ int main(int argc, char *argv[])
 			}
 		}
 
-		if (flag == 1)
-		printf("%d\n", sum);
-		else
-		printf("Error\n");
+		if (flag == 1){
+
+			printf("%d\n", sum);
+			return (0);
+		}else
+		{
+			printf("Error\n");
+			return (1);
+		}
+
 	}
 
-	return (0);
+
 }
