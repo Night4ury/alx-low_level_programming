@@ -15,29 +15,29 @@
 
 char *_strdup(char *str)
 {
-    int size = 0; 
-    int i = 0;
-    char *ptr_tostr = str;
-    char *p;
-    
+	int size = 0;
+	int i = 0;
+	char *ptr_tostr = str;
+	char *p;
 
-    while (*ptr_tostr != '\0')
-    {
-        size++;
-        ptr_tostr++;
-    }
 
-    p = (char *)malloc(size);
+	while (*ptr_tostr != '\0')
+	{
+		size++;
+		ptr_tostr++;
+	}
 
-    if (p == NULL || size == 0)
+	p = (char *)malloc(size + 1);
+
+	if (p == NULL || size == 0)
 	{
 		return (NULL);
 	}
 
-    for(; i < size; i++)
-    {
-        p[i] = str[i];
-    }
+	for (; i < size; i++)
+	{
+		p[i] = str[i];
+	}
 
-    return (p);
+	return (p);
 }
