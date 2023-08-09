@@ -23,10 +23,10 @@ char *create_array(unsigned int size, char c)
 	if (p == NULL)
 	{
 		printf("Memory allocation failed\n");
-		return NULL;
+		return (NULL);
 	}
-	
-	for(; i < size; i++)
+
+	for (; i < size; i++)
 	{
 		p[i] = c;
 	}
