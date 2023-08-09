@@ -13,12 +13,12 @@
 
 int main(int argc, char *argv[])
 {
-int i = 0;
-(void)argc;
-for (; i < argc; i++)
-{
-printf("%s\n", argv[i]);
-}
-return (0);
+    int i = 0;
+    (void)argc;
+    for (; i < argc; i++)
+    {
+    printf("%s\n", argv[i]);
+    }
+    return (0);
 }
 
