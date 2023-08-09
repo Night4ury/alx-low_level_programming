@@ -22,8 +22,10 @@ int main(int argc, char *argv[])
 	char flag = 1;
 
 	if (argc < 2)
-	printf("%d\n", sum);
-
+	{
+		printf("%d\n", sum);
+		return (0);
+	}
 	else
 	{
 		for(; i< argc; i++)
