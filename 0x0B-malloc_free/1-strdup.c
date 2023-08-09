@@ -20,6 +20,10 @@ char *_strdup(char *str)
 	char *ptr_tostr = str;
 	char *p;
 
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 
 	while (*ptr_tostr != '\0')
 	{
