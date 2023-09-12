@@ -1,14 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - Function Title
+ * main - prints the name of the file.
  *
- * Description: Loading...
- *
- * Return: nothing
+ * Return: Always 0.
  */
-
 int main(void)
 {
 	printf("%s\n", __FILE__);
